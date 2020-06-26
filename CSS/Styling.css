@@ -1,0 +1,76 @@
+body {
+    background-color: 		#000000;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+h1 {
+    margin: 10px;
+    background-color: white;
+    color:  red;
+    text-align: center;
+}
+.row {
+    display: flex;
+}
+
+.formOne {
+   display: block;
+   width: 50%;
+   margin: 20px;
+   line-height: 20px;
+   text-align: justify;
+}
+
+
+.customheader{
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+.background-naruto{
+    background-image: url('../Bilder/newNaru.jpg')
+}
+
+
+@media screen and (max-width: 720px) {
+    .row {
+        display: block;
+        margin-left: 10px;
+        width: 100%;
+    }
+
+    .newrow { 
+        width: 100%;
+     }
+}
+
+ 
+.Navigation ul {
+    background-color: 	#cd2626;
+    margin: 0;
+    padding: 15px;
+    color: white;
+}
+
+.Navigation ul li {
+    display: inline;
+   margin: 10px;
+   font-size: 20px;
+   text-decoration: none;
+   }
+   
+   .Navigation ul li a {
+   
+      text-decoration: none;
+      }
+
+   .footer{
+       text-align: center;
+   }
