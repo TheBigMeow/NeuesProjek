@@ -1,5 +1,5 @@
 body {
-    background-color: 		#000000;
+    background-color: 		#12a9b0;
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -7,8 +7,8 @@ body {
 }
 h1 {
     margin: 10px;
-    background-color: white;
-    color:  red;
+    background-color: #d3215d;
+    color: #12a9b0;
     text-align: center;
 }
 .row {
@@ -23,7 +23,27 @@ h1 {
    text-align: justify;
 }
 
+.center { 
+    margin: auto;
+    padding: auto;
+}
+.picsize {
+    height: 600px;
+    width: 500px;
+}
 
+.textForm {
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.textFormTwo {
+    margin-right: 10px;
+    padding: 10px;
+}
+.textmar {
+    margin-left: 10%;
+}
 .customheader{
     height: 100vh;
     overflow: hidden;
@@ -36,6 +56,9 @@ h1 {
 }
 .background-pokepoke{
     background-image: url('../Bilder/pokemonOne.jpg')
+}
+.background-pokespiele{
+    background-image: url('../Bilder/pokemontwo.jpg');
 }
 
 
@@ -53,10 +76,10 @@ h1 {
 
  
 .Navigation ul {
-    background-color: 	#cd2626;
+    background-color: #d3215d;
     margin: 0;
     padding: 15px;
-    color: white;
+    color:#12a9b0;
 }
 
 .Navigation ul li {
